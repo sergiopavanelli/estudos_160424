@@ -31,5 +31,7 @@ public class App {
         produto2.exibe();
 
         scanner.close();
+
+        // teste mac
     }
 }

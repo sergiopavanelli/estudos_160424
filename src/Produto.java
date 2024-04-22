@@ -4,7 +4,7 @@ class Produto {
     private double preco;
     private static int ultimo_id = 0;
 
-    // Construtor que recebe nome e preço do produto
+    // Método Construtor que recebe nome e preço do produto
     public Produto(String nome, double preco) {
         this.id = ++ultimo_id;
         this.nome = nome;
